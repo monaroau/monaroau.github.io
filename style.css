@@ -105,7 +105,7 @@ body {
 .body-background {
   position: fixed;
   background-image: url('images/me.jpg');
-  background-position: center center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
