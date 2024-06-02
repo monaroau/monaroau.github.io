@@ -1,0 +1,126 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.text-large {
+  font-size: 70px;
+}
+
+.title-flair {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url('images/software-universe.jpeg');
+
+  -webkit-transition: background-position 10s ease;
+  -moz-transition: background-position 10s ease;
+  -o-transition: background-position 10s ease;
+  transition: background-position 10s ease;
+}
+
+.title-flair.center {
+  background-position: bottom;
+}
+
+.title-flair-2 {
+
+}
+
+.switcheroo {
+  backdrop-filter: invert(100%);
+  background-color: #00c7eb66;
+}
+
+body {
+  background-image: url('images/me.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.section {
+  padding: 110px 15px;
+}
+
+.bar {
+  background-color: #ffffff66;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+#cursor-circle {
+  backdrop-filter: invert(100%);
+  pointer-events: none;
+  border-radius: 20px;
+}
