@@ -93,6 +93,7 @@
 .title-flair-2 {}
 
 .switcheroo {
+  -webkit-backdrop-filter: invert(100%);
   backdrop-filter: invert(100%);
   background-color: #00c7eb66;
 }
@@ -125,6 +126,7 @@ body {
 }
 
 #cursor-circle {
+  -webkit-backdrop-filter: invert(100%);
   backdrop-filter: invert(100%);
   pointer-events: none;
   border-radius: 20px;
