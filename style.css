@@ -92,15 +92,24 @@
 
 .title-flair-2 {}
 
-.switcheroo {
+.switcheroo-blue {
   -webkit-backdrop-filter: invert(100%);
   backdrop-filter: invert(100%);
   background-color: #00c7eb66;
 }
 
-body {
-  overflow-x: hidden;
+.switcheroo-red {
+  -webkit-backdrop-filter: invert(100%);
+  backdrop-filter: invert(100%);
+  background-color: #eb000099;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
 
 .body-background {
   position: fixed;
@@ -115,6 +124,8 @@ body {
 
 .section {
   padding: 110px 15px;
+  height: 100vh; /* Each section covers the full viewport height */
+  box-sizing: border-box;
 }
 
 .bar {
@@ -130,4 +141,10 @@ body {
   backdrop-filter: invert(100%);
   pointer-events: none;
   border-radius: 20px;
+}
+
+.outer-container {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
 }
