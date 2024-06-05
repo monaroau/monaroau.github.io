@@ -126,6 +126,7 @@ body, html {
   padding: 110px 15px;
   height: 100vh; /* Each section covers the full viewport height */
   box-sizing: border-box;
+  position: relative;
 }
 
 .bar {
@@ -147,4 +148,11 @@ body, html {
   height: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
+}
+
+.container {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
