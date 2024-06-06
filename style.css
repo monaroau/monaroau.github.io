@@ -1,3 +1,7 @@
+.body {
+  background-color: #eee;
+}
+
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -70,89 +74,41 @@
   font-style: italic;
 }
 
-.text-large {
-  font-size: 70px;
-}
-
-.title-flair {
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+#top-banner {
   background-image: url('images/software-universe.jpeg');
-
-  -webkit-transition: background-position 10s ease;
-  -moz-transition: background-position 10s ease;
-  -o-transition: background-position 10s ease;
-  transition: background-position 10s ease;
-}
-
-.title-flair.center {
-  background-position: bottom;
-}
-
-.title-flair-2 {}
-
-.switcheroo-blue {
-  -webkit-backdrop-filter: invert(100%);
-  backdrop-filter: invert(100%);
-  background-color: #00c7eb66;
-}
-
-.switcheroo-red {
-  -webkit-backdrop-filter: invert(100%);
-  backdrop-filter: invert(100%);
-  background-color: #eb000099;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-
-.body-background {
-  position: fixed;
-  background-image: url('images/me.jpg');
-  background-position: center bottom;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height: 200px;
+}
+
+.profile-pic {
+  background-image: url('images/me.jpg');
+  background-color: white;
   background-size: contain;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
 
-.section {
-  padding: 110px 15px;
-  height: 100vh; /* Each section covers the full viewport height */
-  box-sizing: border-box;
+.profile-pic-offset {
   position: relative;
+  top: 100px;
+  right: -25px;
+  border: 3px solid #000000;
 }
 
-.bar {
-  background-color: #ffffff66;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  width: 100%;
+.profile-pic.small {
+  width:50px;
+  height:50px;
 }
 
-#cursor-circle {
-  -webkit-backdrop-filter: invert(100%);
-  backdrop-filter: invert(100%);
-  pointer-events: none;
-  border-radius: 20px;
-}
-
-.outer-container {
-  height: 100%;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS devices */
-}
-
-.container {
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.skills-pod span {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 0 10px 7px 0;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.175);
 }
