@@ -42,6 +42,12 @@ const articles = [
     image: 'images/copilot.png',
     title: 'Chat bot integration',
     body: `Right now I'm working on integrating Microsoft CoPilot into a wordpress site. The customer wants the user experience to be similar to the Intercom chat pane. Microsoft CoPilot out of the box doesn't have this feature. So I get to develop one of those javascript snippets which manipulates the DOM to add all the required code. It's pretty fun.`
+  },
+  {
+    when: 'June 14, 2024',
+    image: 'images/lego-prototype.jpg',
+    title: 'Lego prototyping',
+    body: 'Here is my weather station powered by a Raspberry Pi Zero W. Written in Python the Pi connects to the API of the Bureau of Meteorology and displays the data twice an hour. To reduce power consumption on the unit I utilised an e-paper display which doesn\'t require power to maintain an image. To package the prototype I used some of my kids Lego which is a really versatile and quick way to realise a design.'
   }
 ]
 
