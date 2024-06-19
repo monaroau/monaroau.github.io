@@ -1,0 +1,31 @@
+{% extends "index.njk" %}
+
+{% block headextras %}
+<link rel="stylesheet" type="text/css" href="../assets/style/style.css" />
+{% endblock %}
+
+{% block maincontent %}
+<div class="row">
+  <div class="col-6 offset-3">
+    <div class="card mb-3">
+        <div class="p-3 d-flex align-items-center">
+          <div class="profile-pic small me-3"></div>
+          <div>
+            <div class="fw-bold">Richard Ross</div>
+            <div class="small text-secondary">
+              {{when}}
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">{{title}}</h5>
+          <p class="card-text">{{body | safe}}</p>
+        </div>
+        {% if image %}
+        <img src="../{{image}}" class="card-img-bottom" alt="post image">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
